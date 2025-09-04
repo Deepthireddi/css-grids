@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            height: 100vh;
+            gap: 5px;
+        }
+
+        .andhra {
+            background-color: lightblue;
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        .telangana {
+            background-color: lightcoral;
+        }
+
+        .chennai {
+            background-color: lightcyan;
+        }
+
+        .karnataka {
+            background-color: lightgoldenrodyellow;
+        }
+
+        .goa {
+            background-color: lightgreen;
+        }
+
+        .odisha {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="andhra"></div>
+        <div class="telangana"></div>
+        <div class="chennai"></div>
+        <div class="karnataka"></div>
+        <div class="goa"></div>
+        <div class="odisha"></div>
+    </div>
+</body>
+</html>
